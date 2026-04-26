@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env/
+my_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application
+temp/
+static/uploads/
+models/__pycache__/
+utils/__pycache__/
+
+# Large trained weights (add your own; see README)
+models/*.pth
+models/*.pt
+!models/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+logs/
